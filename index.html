@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Inicio</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/superfish.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/jquery.mobilemenu.js"></script>
+    
+    <script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script>
+        $(window).load(function(){
+            $('#foo').carouFredSel({
+                auto: false,
+                responsive: true,
+                width: '100%',
+                prev: '#prev1',
+                next: '#next1',
+                scroll: 1,
+                items: {
+                    height: 'auto',
+                    width: 143,
+                    visible: {
+                        min: 1,
+                        max: 5
+                    }
+                },
+                mousewheel: false,
+                swipe: {
+                    onMouse: true,
+                    onTouch: true
+                }
+            });
+        })
+    </script>
+    
+    <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="Estás usando un navegador obsoleto. Para una experiencia de navegación más rápida y segura, actualiza gratis hoy." />
+         </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+    </head>
+    <body class="page-1">
+<!--==============================header=================================-->
+<header>
+    <div class="container_12">
+        <div class="row">
+            <div class="grid_12">
+                <h1 class="mb">
+                    <a href="index.html"><img src="images/logo.png" alt="Corredor de Alimentos"></a>
+                    <span>Expertos en alimentos <br>respetados a nivel nacional</span>
+                </h1>
+                <nav>
+                    <ul class="sf-menu">
+                        <li class="current"><a href="index.html">Inicio</a></li>
+                        <li><a href="index-1.html">Empresa</a></li>
+                        <li><a href="index-2.html">Productos</a>
+                            <ul>
+                                <li><a href="#">Categoría 1</a></li>
+                                <li><a href="#">Categoría 2</a></li>
+                                <li><a href="#">Categoría 3</a>
+                                    <ul>
+                                        <li><a href="#">Subcategoría 1</a></li>
+                                        <li><a href="#">Subcategoría 2</a></li>
+                                    </ul>
+                                </li>
+                           </ul>
+                        </li>
+                        <li><a href="index-3.html">Servicios</a></li>
+                        <li><a href="index-4.html">Contactos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="img-bg">
+                <img src="images/img-bg.png" alt="">
+                <div class="abs-1">
+                    <div class="text-2">Desarrolla tu<br> negocio en bienes<br> de consumo empaquetados </div>
+                    <span></span>
+                </div>
+                <div class="abs-2">
+                    <div class="text-2">Ingresa a nuevos<br> canales de<br> distribución </div>
+                    <span></span>
+                </div>
+                <div class="abs-3">
+                    <div class="text-2">Asegúrate de que tus <br> productos estén listados o <br> lanza una nueva marca </div>
+                    <span></span>
+                </div>
+                <div class="abs-4">
+                    <div class="text-2">Ten más <br> impacto en <br>los mercados <br>estacionales</div>
+                    <span></span>
+                </div>
+                <div class="abs-5">
+                    <div class="text-2">Apoya o recupera <br> tus <br>ventas de productos</div>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--=======content================================-->
+<section class="content">
+    <div class="container_12">
+        <div class="row">
+            <div class="grid_12 block-1">
+                <h2>Nuestros productos:</h2>
+                <div class="list_carousel responsive"> 
+                    <div class="arrows clearfix">               
+                        <a id="prev1" class="prev" href="#"></a>
+                        <a id="next1" class="next" href="#"></a>
+                    </div> 
+                    <ul id="foo" class="clearfix">
+                        <li>
+                            <a href="#" class="img-bord-1"><img src="images/page-1_img-1.jpg" alt=""></a>
+                            <h3><a href="#">Pescado <br>y mariscos</a></h3>
+                        </li>
+                        <li>
+                            <a href="#" class="img-bord-1"><img src="images/page-1_img-2.jpg" alt=""></a>
+                            <h3><a href="#">Filetes de <br>salmon</a></h3>
+                        </li>
+                        <li>
+                            <a href="#" class="img-bord-1"><img src="images/page-1_img-3.jpg" alt=""></a>
+                            <h3><a href="#">Macarons <br>coloridos</a></h3>
+                        </li>
+                        <li>
+                            <a href="#" class="img-bord-1"><img src="images/page-1_img-4.jpg" alt=""></a>
+                            <h3><a href="#">Dulces de <br>malvavisco</a></h3>
+                        </li>
+                        <li>
+                            <a href="#" class="img-bord-1"><img src="images/page-1_img-5.jpg" alt=""></a>
+                            <h3><a href="#">Café <br>arábica</a></h3>
+                        </li>
+                        <li>
+                            <a href="#" class="img-bord-1"><img src="images/page-1_img-3.jpg" alt=""></a>
+                            <h3><a href="#">Macarons <br>coloridos</a></h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="grid_12">
+            <div class="bord-1"></div>
+        </div>
+        <div class="row">
+            <div class="grid_4">
+                <h2>Beneficios:</h2>
+                <ol class="list">
+                    <li><a href="#">Mejora en la presentación de productos</a></li>
+                    <li><a href="#">Cumplimiento de normativas</a></li>
+                    <li><a href="#">Aumento en la visibilidad de marca</a></li>
+                    <li><a href="#">Estrategias de marketing efectivas</a></li>
+                    <li><a href="#">Optimización de la cadena de suministro</a></li>
+                    <li><a href="#">Atención al cliente excepcional</a></li>
+                </ol>
+            </div>
+            <div class="grid_5">
+                <h2>¡Bienvenido!</h2>
+                <div class="grid_inside">
+                    <div class="grid_3">
+                        <div>Te damos la bienvenida a nuestro sitio. Aquí encontrarás una amplia variedad de productos alimenticios de alta calidad. Estamos comprometidos a ofrecerte lo mejor.</div> 
+                        <a href="#" class="link">Leer más</a>
+                    </div>
+                    <div class="grid_2">
+                        <div class="text-1">Explora nuestras categorías y descubre lo que tenemos para ofrecerte.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="box-1">
+                    <div class="text-3">
+                        LLÁMANOS:
+                        <div class="text-4">1 800 456 7890</div>
+                        EE. UU. – Nueva York, 123 MAIN 
+                        STREET, NY 10001 <br>
+                        Correo electrónico: <a href="#" class="underline">contacto@nuestrositio.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_12">
+                <div class="bord-2"></div>
+            </div>
+            <ul class="list_logos clearfix">
+                <li><a href="#"><img src="images/logo-1.png" alt=""></a></li>
+                <li><a href="#"><img src="images/logo-2.png" alt=""></a></li>
+                <li><a href="#"><img src="images/logo-3.png" alt=""></a></li>
+                <li><a href="#"><img src="images/logo-4.png" alt=""></a></li>
+                <li><a href="#"><img src="images/logo-5.png" alt=""></a></li>
+                <li><a href="#"><img src="images/logo-6.png" alt=""></a></li>
+                <li><a href="#"><img src="images/logo-7.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!--=======footer=================================-->
+
+<footer>
+    <div class="container_12">
+        <div class="grid_3 fright">
+            <ul class="f-list">
+                <li><a href="#">Gestión por objetivos</a></li>
+                <li><a href="#">Reajustes de tienda</a></li>
+                <li><a href="#">Ventas de productos básicos</a></li>
+            </ul>
+        </div>
+        <div class="grid_3 fright">
+            <ul class="f-list">
+                <li><a href="#">Merchandising</a></li>
+                <li><a href="#">Afiliación a asociaciones</a></li>
+                <li><a href="#">Cumplimiento de pedidos</a></li>
+                <li><a href="#">Cobertura de continuidad</a></li>
+                <li><a href="#">Planificación de ventas proactiva</a></li>
+                <li><a href="#">Servicio al cliente</a></li>
+            </ul>
+        </div>
+        <div class="grid_3 fright">
+            <ul class="f-list">
+                <li><a href="#">Presentaciones de nuevos productos</a></li>
+                <li><a href="#">Realizar reuniones de ventas</a></li>
+                <li><a href="#">Seguimiento de leads</a></li>
+                <li><a href="#">Participación en ferias de alimentos</a></li>
+                <li><a href="#">Monitorear crecimiento</a></li>
+                <li><a href="#">Soporte de marketing</a></li>
+            </ul>
+        </div>
+        <div class="grid_3 fleft">
+            <a href="#" class="logo"><img src="images/f-logo.png" alt=""></a>
+            <div class="copyright">
+                &copy; <span id="copyright-year"></span> 
+                <div><a href="index-5.html" class="h-underline">Política de Privacidad</a></div>
+                <!--{%FOOTER_LINK} -->
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
